@@ -781,7 +781,7 @@ function startIntroSequence() {
     qrImage.src = "qr.png";
     qrImage.onerror = () => {
       qrImage.onerror = null;
-      qrImage.src = "public/qr.png";
+      qrImage.src = "qr.png";
     };
     qrImage.onload = () => {
       qrImage.style.opacity = "1";
