@@ -778,7 +778,7 @@ function startIntroSequence() {
   body.classList.add("loading");
 
   if (qrImage) {
-    qrImage.src = "/public/qr.png";
+    qrImage.src = "qr.png";
     qrImage.onerror = () => {
       qrImage.onerror = null;
       qrImage.src = "public/qr.png";
